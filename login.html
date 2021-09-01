@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/logo.png" type="image">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="login.css">
+    <title>L O G I N</title>
+</head>
+
+<body>
+    <!-- Pre-Loader -->
+    <div id="preloader"></div>
+    <!-- Header -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="index.html">
+
+                        <h1><span><b>L</b> </span><b> A M B O R </b> <span><b>G H I </b></span><b>N I</b></h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a href="index.html" data-after="Home">Home</a></li>
+                        <li><a href="index.html" data-after="Service">Services</a></li>
+                        <li><a href="News.html" data-after="News">News</a></li>
+                        <li><a href="index.html" data-after="About">About</a></li>
+                        <li><a href="index.html" data-after="Contact">Contact</a></li>
+                        <li><a href="register.html" data-after="Contact">LogIn/SignUp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+
+
+
+    <br><br><br><br><br><br><br><br><br>
+
+
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+
+                <form class="login">
+                    <div class="login__field">
+                        <i class="login__icon fa fa-2x fa-user"></i>
+                        <input type="text" class="login__input" placeholder="User name / Email">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fa fa-2x fa-lock"></i>
+                        <input type="password" class="login__input" placeholder="Password">
+
+                    </div>
+                    <button class="button login__submit">
+                        <span class="button__text">Log In Now</span>
+                        <i class="button__icon fa fa-chevron-right"></i>
+                    </button>
+                </form>
+                <div class="social-login">
+                    <br><br>
+                    <h2> Login Via</h2>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/" class="social-login__icon fa fa-2x fa-instagram"></a>
+                        <a href="https://www.facebook.com/" class="social-login__icon fa fa-2x fa-facebook"></a>
+                        <a href="https://twitter.com/?lang=en" class="social-login__icon fa fa-2x fa-twitter"></a>
+                    </div>
+
+                    <div class="reg">
+                        <a href="register.html">
+                            <h2>R E G I S T E R</h2>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="screen__background">
+                <span class="screen__background__shape screen__background__shape4"></span>
+                <span class="screen__background__shape screen__background__shape3"></span>
+                <span class="screen__background__shape screen__background__shape2"></span>
+                <span class="screen__background__shape screen__background__shape1"></span>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function() {
+            loader.style.display = "none";
+        })
+    </script>
+</body>
+
+</html>
